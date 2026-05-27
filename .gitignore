@@ -1,0 +1,12 @@
+
+results/detection/pred_5000_original.json
+results/detection/pred_5000_low_light.json
+
+results/eval/
+
+src/detect/evaluate_map.py
+
+# Python 캐시
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
