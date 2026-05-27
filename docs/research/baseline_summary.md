@@ -71,9 +71,9 @@ I_low(x) : 야간 합성 이미지 픽셀값
 
 | 조건 | mAP@0.5 | mAP@0.5:0.95 | 비고 |
 |---|---|---|---|
-| A: Original | — | — | Baseline |
-| B: Low-light (γ=3.0) | — | — | 성능 하락 확인용 |
-| C: RetinexFormer 복원 후 | — | — | 제안 방법 (추후 측정) |
+| A: Original | 68.43% | 53.37% | Baseline |
+| B: Low-light (γ=3.0) | 53.79% | 40.81% | 성능 하락 확인용 |
+| C: RetinexFormer 복원 후 | 49.84% | 36.90% | 제안 방법 (추후 측정) |
 
 ---
 
