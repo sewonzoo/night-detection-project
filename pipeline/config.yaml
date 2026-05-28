@@ -1,0 +1,22 @@
+project_root: .
+
+annotation: data/sample_200/annotations_sample_200.json
+
+conditions:
+  original:
+    image_dir: data/sample_200/original
+    pred_json: results/detection/pred_original.json
+    vis_dir: results/detection/vis_original
+  low_light_gamma3.0:
+    image_dir: data/sample_200/low_light_gamma3.0
+    pred_json: results/detection/pred_low_light.json
+    vis_dir: results/detection/vis_low_light
+  enhanced_retinexformer:
+    image_dir: data/enhanced/retinexformer_gamma3.0
+    pred_json: results/detection/pred_enhanced.json
+    vis_dir: results/detection/vis_enhanced
+
+outputs:
+  metrics_csv: results/metrics/final_metrics.csv
+  metrics_md: results/metrics/final_metrics.md
+  demo_json: results/demo/demo_results.json

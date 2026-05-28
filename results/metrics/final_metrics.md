@@ -1,0 +1,7 @@
+# Final Metrics
+
+| condition | mAP | AP50 | AP75 | avg_detections | avg_confidence |
+|---|---:|---:|---:|---:|---:|
+| original | NA | NA | NA | 7.4700 | 0.7635 |
+| low_light_gamma3.0 | NA | NA | NA | 5.9100 | 0.7384 |
+| enhanced_retinexformer | NA | NA | NA | 6.0000 | 0.7278 |
